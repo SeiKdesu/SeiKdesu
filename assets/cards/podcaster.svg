@@ -22,7 +22,7 @@
   </g>
   <rect x="2" y="2" width="496" height="196" rx="24" fill="none" stroke="#B5E8D3" stroke-width="2.5"/>
 
-  <g transform="translate(444 132) scale(0.8)"><use href="#sparkle" class="tw" fill="#3FAF8A"/></g>
+  <g transform="translate(444 132) scale(0.8)"><use href="#sparkle" class="tw" fill="#4FBF9A"/></g>
   <g transform="translate(470 108) scale(0.5)"><use href="#sparkle" class="tw d1" fill="#FFFFFF"/></g>
 
   <circle cx="58" cy="58" r="30" fill="#FFFFFF" stroke="#B5E8D3" stroke-width="2.5"/>
@@ -31,13 +31,13 @@
   <rect x="382" y="22" width="94" height="26" rx="13" fill="#CDF1E3"/>
   <text x="429" y="40" font-size="12.5" font-weight="700" fill="#2E8A6B" text-anchor="middle">Hackathon</text>
 
-  <text x="102" y="68" font-size="21" font-weight="800" fill="#4A3B6B">News Podcaster</text>
+  <text x="102" y="68" font-size="21" font-weight="800" fill="#33395E">News Podcaster</text>
   <text x="102" y="90" font-size="13" font-weight="700" fill="#2E8A6B">Flutter × Flask × Gemini API</text>
 
-    <text x="34" y="128" font-size="15" fill="#5E5480">Gemini がニュースを年代別にやさしく要約して</text>
-    <text x="34" y="152" font-size="15" fill="#5E5480">音声で届けるポッドキャストアプリ（5人チーム）</text>
+    <text x="34" y="128" font-size="15" fill="#56608A">Gemini がニュースを年代別にやさしく要約して</text>
+    <text x="34" y="152" font-size="15" fill="#56608A">音声で届けるポッドキャストアプリ（5人チーム）</text>
 
   <circle cx="40" cy="178" r="6" fill="#00B4AB" stroke="#FFFFFF" stroke-width="2"/>
-  <text x="54" y="183" font-size="13" font-weight="700" fill="#6B5B95">Dart</text>
-  <text x="470" y="183" font-size="13" font-weight="700" fill="#2E8A6B" text-anchor="end">view repo ♡</text>
+  <text x="54" y="183" font-size="13" font-weight="700" fill="#4A5280">Dart</text>
+  <text x="470" y="183" font-size="13" font-weight="700" fill="#2E8A6B" text-anchor="end">view repo →</text>
 </svg>
