@@ -1,36 +1,41 @@
 <div align="center">
 
-<img src="./assets/header.svg" width="100%" alt="Hi, I'm Keito — AI Researcher · App Developer · Tokyo" />
+<img src="./assets/header.svg" width="100%" alt="KEITO — AI Researcher × App Developer" />
 
-<a href="https://github.com/SeiKdesu"><img src="https://readme-typing-svg.demolab.com?font=M+PLUS+Rounded+1c&weight=700&size=20&duration=2800&pause=900&color=5B8DEF&center=true&vCenter=true&width=620&height=44&lines=LLM%20%C3%97%20%E7%9F%A5%E8%AD%98%E3%82%B0%E3%83%A9%E3%83%95%E3%81%A7%20Multi-hop%20QA%20%F0%9F%94%8D;World%20Model%EF%BC%88Dreamer%20V3%EF%BC%89%E3%81%AE%E8%A1%A8%E7%8F%BE%E5%AD%A6%E7%BF%92%20%F0%9F%8C%99;Flutter%20%C3%97%20Firebase%20%C3%97%20Gemini%20%E3%81%A7%E3%82%A2%E3%83%97%E3%83%AA%E9%96%8B%E7%99%BA%20%F0%9F%93%B1;Verilog%20%E3%81%A7%20CPU%20%E3%82%82%E3%81%A4%E3%81%8F%E3%82%8A%E3%81%BE%E3%81%99%20%F0%9F%94%8C" alt="LLM × 知識グラフ / World Model / Flutter / Verilog" /></a>
+<a href="https://github.com/SeiKdesu"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2600&pause=900&color=3B82F6&center=true&vCenter=true&width=640&height=40&lines=%24%20researching%20LLM%20%C3%97%20Knowledge%20Graphs;%24%20multi-hop%20KGQA%20%E2%86%92%20AACL-IJCNLP%202026;%24%20world%20models%20%28Dreamer%20V3%29%20%E2%86%92%20JSAI%202026;%24%20shipping%20apps%20with%20Flutter%20%C3%97%20Firebase%20%C3%97%20Gemini" alt="researching LLM × Knowledge Graphs / World Models / Flutter apps" /></a>
 
-<a href="https://x.com/asu_s_k"><img src="https://img.shields.io/badge/X-@asu__s__k-9CC8FF?style=flat-square&logo=x&logoColor=white" alt="X @asu_s_k" /></a>
-<img src="https://img.shields.io/badge/📍-Tokyo-C9B6FF?style=flat-square" alt="Tokyo" />
-<img src="https://komarev.com/ghpvc/?username=SeiKdesu&label=visitors&color=8FD8BE&style=flat-square" alt="profile views" />
+<a href="https://x.com/asu_s_k"><img src="https://img.shields.io/badge/X-@asu__s__k-0B1120?style=for-the-badge&logo=x&logoColor=white&labelColor=000000" alt="X @asu_s_k" /></a>
+<a href="https://github.com/SeiKdesu/Training-Free-Residual-Guided-Retrieval-for-Multi-hop-KGQA"><img src="https://img.shields.io/badge/AACL--IJCNLP-2026-0E7490?style=for-the-badge&labelColor=0B1120" alt="AACL-IJCNLP 2026" /></a>
+<a href="https://github.com/SeiKdesu/JSAI_2026"><img src="https://img.shields.io/badge/JSAI-2026-6D28D9?style=for-the-badge&labelColor=0B1120" alt="JSAI 2026" /></a>
+<img src="https://komarev.com/ghpvc/?username=SeiKdesu&label=PROFILE%20VIEWS&color=1E293B&style=for-the-badge" alt="profile views" />
 
 </div>
 
-<img src="./assets/divider.svg" width="100%" alt="" />
+<br />
 
-<h2 align="center">🫧 About me</h2>
+<img src="./assets/sections/about.svg" width="100%" alt="01 / ABOUT" />
 
-- 🔍 **LLM × 知識グラフ** で、multi-hop な質問応答（KGQA / RAG）を研究しています
-- 📝 **AACL-IJCNLP 2026** — [Training-Free Residual-Guided Retrieval for Multi-hop KGQA with Single-Step LLM Inference](https://github.com/SeiKdesu/Training-Free-Residual-Guided-Retrieval-for-Multi-hop-KGQA)
-- 🌙 **JSAI 2026** — [報酬関連領域を強調した Dreamer V3 の表現学習](https://github.com/SeiKdesu/JSAI_2026)
-- 📱 Flutter・Firebase・Gemini API でアプリづくり。ハッカソンにも出ています
-- 🔌 Verilog で CPU を書いたりもします
-- ✉️ お気軽に X [@asu_s_k](https://x.com/asu_s_k) まで！
+```yaml
+name: Keito
+based_in: Tokyo, Japan
+research:
+  focus: [LLM, Knowledge Graph, Multi-hop KGQA, RAG, World Models]
+  papers:
+    - AACL-IJCNLP 2026  # Training-Free Residual-Guided Retrieval for Multi-hop KGQA
+    - JSAI 2026         # 報酬関連領域を強調した Dreamer V3 の表現学習
+building: [Flutter, Firebase, Gemini API, Flask]
+hardware: Verilog CPU (ROM / RAM / I/O) on FPGA
+contact: x.com/asu_s_k
+```
 
-<img src="./assets/divider.svg" width="100%" alt="" />
-
-<h2 align="center">🔭 Research</h2>
+<img src="./assets/sections/research.svg" width="100%" alt="02 / RESEARCH" />
 
 <p align="center">
   <a href="https://github.com/SeiKdesu/Training-Free-Residual-Guided-Retrieval-for-Multi-hop-KGQA"><img src="./assets/cards/kgqa.svg" width="49%" alt="Residual-Guided KGQA — AACL-IJCNLP 2026" /></a>
   <a href="https://github.com/SeiKdesu/JSAI_2026"><img src="./assets/cards/dreamer.svg" width="49%" alt="Reward-Aware Dreamer V3 — JSAI 2026" /></a>
 </p>
 
-<h2 align="center">🧩 Projects</h2>
+<img src="./assets/sections/projects.svg" width="100%" alt="03 / PROJECTS" />
 
 <p align="center">
   <a href="https://github.com/SeiKdesu/simple_news_podcaster"><img src="./assets/cards/podcaster.svg" width="49%" alt="News Podcaster — Flutter × Flask × Gemini API" /></a>
@@ -38,26 +43,24 @@
   <a href="https://github.com/SeiKdesu/gate_level_FPGA"><img src="./assets/cards/fpga.svg" width="49%" alt="Gate-Level CPU — Verilog × FPGA" /></a>
 </p>
 
-<img src="./assets/divider.svg" width="100%" alt="" />
-
-<h2 align="center">🛠️ Tech Stack</h2>
+<img src="./assets/sections/stack.svg" width="100%" alt="04 / TECH STACK" />
 
 <p align="center">
-  <sub><b>✦ AI / Research ✦</b></sub><br />
-  <img src="https://skillicons.dev/icons?i=python,pytorch,docker,linux&theme=light" alt="Python, PyTorch, Docker, Linux" />
+  <code>// ai &amp; research</code><br />
+  <img src="https://skillicons.dev/icons?i=python,pytorch,docker,linux&theme=dark" alt="Python, PyTorch, Docker, Linux" />
   <br /><br />
-  <sub><b>✦ Apps ✦</b></sub><br />
-  <img src="https://skillicons.dev/icons?i=flutter,dart,firebase,kotlin,ts,flask&theme=light" alt="Flutter, Dart, Firebase, Kotlin, TypeScript, Flask" />
+  <code>// apps</code><br />
+  <img src="https://skillicons.dev/icons?i=flutter,dart,firebase,kotlin,ts,flask&theme=dark" alt="Flutter, Dart, Firebase, Kotlin, TypeScript, Flask" />
   <br /><br />
-  <sub><b>✦ Others ✦</b></sub><br />
-  <img src="https://skillicons.dev/icons?i=cpp,git,github&theme=light" alt="C++, Git, GitHub" />
+  <code>// systems</code><br />
+  <img src="https://skillicons.dev/icons?i=cpp,git,github&theme=dark" alt="C++, Git, GitHub" />
 </p>
 
-<h2 align="center">📊 GitHub Stats</h2>
+<img src="./assets/sections/activity.svg" width="100%" alt="05 / ACTIVITY" />
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SeiKdesu&show_icons=true&count_private=true&include_all_commits=true&custom_title=Keito%27s%20GitHub%20Stats&bg_color=F5F8FF&title_color=5B8DEF&text_color=33395E&icon_color=9B8CF0&ring_color=6FA8F0&border_color=D2DEFF&border_radius=18" height="165" alt="GitHub stats" />
-  <img src="https://streak-stats.demolab.com?user=SeiKdesu&background=F5F8FF&border=D2DEFF&stroke=D2DEFF&ring=6FA8F0&fire=9B8CF0&currStreakNum=33395E&sideNums=33395E&currStreakLabel=5B8DEF&sideLabels=7383E8&dates=8A93BD&border_radius=18" height="165" alt="GitHub streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=SeiKdesu&show_icons=true&count_private=true&include_all_commits=true&custom_title=Keito%27s%20GitHub%20Stats&bg_color=0B1120&title_color=22D3EE&text_color=CBD5E1&icon_color=818CF8&ring_color=22D3EE&border_color=1E293B&border_radius=14" height="165" alt="GitHub stats" />
+  <img src="https://streak-stats.demolab.com?user=SeiKdesu&background=0B1120&border=1E293B&stroke=1E293B&ring=22D3EE&fire=818CF8&currStreakNum=F1F5F9&sideNums=F1F5F9&currStreakLabel=22D3EE&sideLabels=94A3B8&dates=64748B&border_radius=14" height="165" alt="GitHub streak" />
 </p>
 
 <p align="center">
@@ -67,4 +70,4 @@
   </picture>
 </p>
 
-<img src="./assets/footer.svg" width="100%" alt="Thanks for visiting! またきてね" />
+<img src="./assets/footer.svg" width="100%" alt="See you in the next commit" />
