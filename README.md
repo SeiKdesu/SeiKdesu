@@ -18,7 +18,7 @@
 - 📝 **AACL-IJCNLP 2026** — [Training-Free Residual-Guided Retrieval for Multi-hop KGQA with Single-Step LLM Inference](https://github.com/SeiKdesu/Training-Free-Residual-Guided-Retrieval-for-Multi-hop-KGQA)
 - 🌙 **JSAI 2026** — [報酬関連領域を強調した Dreamer V3 の表現学習](https://github.com/SeiKdesu/JSAI_2026)
 - 📱 Flutter・Firebase・Gemini API でアプリづくり。ハッカソンにも出ています
-- 🔌 Verilog で CPU を書いたり、Unity でゲームをつくったりもします
+- 🔌 Verilog で CPU を書いたりもします
 - 💌 お気軽に X [@asu_s_k](https://x.com/asu_s_k) まで！
 
 <img src="./assets/divider.svg" width="100%" alt="" />
@@ -35,7 +35,6 @@
 <p align="center">
   <a href="https://github.com/SeiKdesu/simple_news_podcaster"><img src="./assets/cards/podcaster.svg" width="49%" alt="News Podcaster — Flutter × Flask × Gemini API" /></a>
   <a href="https://github.com/SeiKdesu/daigaku_app_firebase"><img src="./assets/cards/board.svg" width="49%" alt="Bulletin Board App — Flutter × Firebase" /></a>
-  <a href="https://github.com/SeiKdesu/TankGame"><img src="./assets/cards/tank.svg" width="49%" alt="Tank Game — Unity × C#" /></a>
   <a href="https://github.com/SeiKdesu/gate_level_FPGA"><img src="./assets/cards/fpga.svg" width="49%" alt="Gate-Level CPU — Verilog × FPGA" /></a>
 </p>
 
@@ -51,7 +50,7 @@
   <img src="https://skillicons.dev/icons?i=flutter,dart,firebase,kotlin,ts,flask&theme=light" alt="Flutter, Dart, Firebase, Kotlin, TypeScript, Flask" />
   <br /><br />
   <sub><b>✦ Others ✦</b></sub><br />
-  <img src="https://skillicons.dev/icons?i=cpp,cs,unity,git,github&theme=light" alt="C++, C#, Unity, Git, GitHub" />
+  <img src="https://skillicons.dev/icons?i=cpp,git,github&theme=light" alt="C++, Git, GitHub" />
 </p>
 
 <h2 align="center">🍓 GitHub Stats</h2>
