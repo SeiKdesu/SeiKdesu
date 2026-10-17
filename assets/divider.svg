@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 40" width="1000" height="40" role="img" aria-label="divider">
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFB3CF" stop-opacity="0"/>
+      <stop offset="0.25" stop-color="#FFB3CF"/>
+      <stop offset="0.5" stop-color="#C9B6FF"/>
+      <stop offset="0.75" stop-color="#9FD6FF"/>
+      <stop offset="1" stop-color="#9FD6FF" stop-opacity="0"/>
+    </linearGradient>
+    <path id="sparkle" d="M0,-10 C1,-3 3,-1 10,0 C3,1 1,3 0,10 C-1,3 -3,1 -10,0 C-3,-1 -1,-3 0,-10Z"/>
+  </defs>
+  <style>
+    .wave { stroke-dasharray: 0.1 11; animation: flow 2.5s linear infinite; }
+    @keyframes flow { to { stroke-dashoffset: -22.2; } }
+    .beat { transform-box: fill-box; transform-origin: center; animation: beat 1.4s ease-in-out infinite; }
+    @keyframes beat { 0%, 100% { transform: scale(1); } 15% { transform: scale(1.22); } 30% { transform: scale(1); } 45% { transform: scale(1.12); } }
+    .tw { transform-box: fill-box; transform-origin: center; animation: twinkle 2.2s ease-in-out infinite; }
+    .tw.d1 { animation-delay: -1.1s; }
+    @keyframes twinkle { 0%, 100% { opacity: 0.35; transform: scale(0.6); } 50% { opacity: 1; transform: scale(1); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+
+  <g fill="none" stroke="url(#line)" stroke-width="6" stroke-linecap="round">
+    <path class="wave" d="M10,20 Q22.5,10 35,20 T60,20 T85,20 T110,20 T135,20 T160,20 T185,20 T210,20 T235,20 T260,20 T285,20 T310,20 T335,20 T360,20 T385,20 T410,20 T435,20 T450,20"/>
+    <path class="wave" d="M550,20 Q562.5,10 575,20 T600,20 T625,20 T650,20 T675,20 T700,20 T725,20 T750,20 T775,20 T800,20 T825,20 T850,20 T875,20 T900,20 T925,20 T950,20 T975,20 T990,20"/>
+  </g>
+
+  <g transform="translate(470 20) scale(0.75)"><use href="#sparkle" class="tw" fill="#C9B6FF"/></g>
+  <g transform="translate(530 20) scale(0.75)"><use href="#sparkle" class="tw d1" fill="#9FD6FF"/></g>
+  <g transform="translate(500 22) scale(1.25)">
+    <path class="beat" d="M0,6 C-8,0 -12,-6 -7,-10.5 C-3.5,-13.5 0,-10.5 0,-8 C0,-10.5 3.5,-13.5 7,-10.5 C12,-6 8,0 0,6Z" fill="#FF8FB1"/>
+  </g>
+</svg>

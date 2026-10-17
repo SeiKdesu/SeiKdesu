@@ -1,0 +1,33 @@
+name: 🐍 pastel snake
+
+on:
+  schedule:
+    - cron: "0 15 * * *" # 00:00 JST
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: generate snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg?color_snake=#9575CD&color_dots=#F3EEF9,#FFD6E7,#FFADD2,#F783AC,#E64980
+            dist/snake-dark.svg?palette=github-dark&color_snake=#C8B6FF&color_dots=#2D2438,#5C3A57,#8E4F7E,#C868A5,#F4A6C6
+
+      - name: push to output branch
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "🐍 update snake"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
